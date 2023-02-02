@@ -3,7 +3,8 @@
   "author": "Lâm Minh Thành",
   "version": "1.0.0",
   "type": "module",
-  "keywords": ["react-iframe", "React", "Iframe", "component", "IframeWrapper"],
+  "keywords": ["React", "react-iframe", "Iframe", "component", "IframeWrapper"],
+  "license": "MIT",
   "scripts": {
     "test": "jest",
     "dev": "vite",
