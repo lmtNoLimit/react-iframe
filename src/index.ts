@@ -1,1 +1,1 @@
-export * from './components'
+export { default as Iframe, useFrame } from './Iframe'
