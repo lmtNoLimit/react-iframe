@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "keywords": ["react-iframe", "React", "Iframe", "component", "IframeWrapper"],
   "scripts": {
     "test": "jest",
     "dev": "vite",
@@ -12,13 +13,9 @@
     "husky": "husky",
     "prettier": "prettier --write **/*.{ts,tsx,d.ts,json}"
   },
-  "dependencies": {
-    "lodash.omit": "^4.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
   "devDependencies": {
-    "@types/lodash.omit": "^4.5.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "@swc/core": "^1.3.26",
     "@swc/jest": "^0.2.24",
     "@testing-library/jest-dom": "^5.16.5",

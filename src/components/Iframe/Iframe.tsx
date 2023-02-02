@@ -1,6 +1,6 @@
-import omit from 'lodash.omit'
-import React, { forwardRef, HTMLProps, useEffect, useRef, useState } from 'react'
 import ReactDOM from 'react-dom'
+import React, { forwardRef, HTMLProps, useEffect, useRef, useState } from 'react'
+import { omit } from '../../utils/omit'
 
 let doc
 let win
