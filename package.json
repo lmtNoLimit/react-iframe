@@ -8,7 +8,7 @@
     "test": "jest",
     "dev": "vite",
     "build": "tsc -p tsconfig.prod.json && vite build",
-    "dev-build": "tsc -p tsconfig.prod.json && vite build --watch",
+    "dev-build": "tsc -p tsconfig.json && vite build --watch",
     "preview": "vite preview",
     "husky": "husky",
     "prettier": "prettier --write **/*.{ts,tsx,d.ts,json}"
