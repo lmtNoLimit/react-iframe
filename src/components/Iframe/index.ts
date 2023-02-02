@@ -1,1 +1,1 @@
-export { default } from './Iframe'
+export { default, useFrame } from './Iframe'
