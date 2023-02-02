@@ -1,24 +1,22 @@
 {
-  "name": "iframe-component",
-  "private": true,
-  "version": "0.0.0",
+  "name": "react-iframe",
+  "author": "Lâm Minh Thành",
+  "version": "1.0.0",
   "type": "module",
+  "keywords": ["React", "react-iframe", "Iframe", "component", "IframeWrapper"],
+  "license": "MIT",
   "scripts": {
     "test": "jest",
     "dev": "vite",
     "build": "tsc -p tsconfig.prod.json && vite build",
-    "dev-build": "tsc -p tsconfig.prod.json && vite build --watch",
+    "dev-build": "tsc -p tsconfig.json && vite build --watch",
     "preview": "vite preview",
     "husky": "husky",
     "prettier": "prettier --write **/*.{ts,tsx,d.ts,json}"
   },
-  "dependencies": {
-    "lodash.omit": "^4.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
   "devDependencies": {
-    "@types/lodash.omit": "^4.5.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "@swc/core": "^1.3.26",
     "@swc/jest": "^0.2.24",
     "@testing-library/jest-dom": "^5.16.5",
@@ -42,5 +40,26 @@
     "typescript": "^4.9.4",
     "vite": "^4.0.3",
     "vite-plugin-dts": "^1.7.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/elements.es.js",
+  "module": "./dist/elements.umd.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/elements.es.js",
+      "require": "./dist/elements.umd.js"
+    }
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx,d.ts,json,html}": [
+      "prettier --write"
+    ]
   }
 }
