@@ -1,7 +1,7 @@
 {
-  "name": "iframe-component",
-  "private": true,
-  "version": "0.0.0",
+  "name": "react-iframe",
+  "author": "Lâm Minh Thành",
+  "version": "1.0.0",
   "type": "module",
   "keywords": ["react-iframe", "React", "Iframe", "component", "IframeWrapper"],
   "scripts": {
